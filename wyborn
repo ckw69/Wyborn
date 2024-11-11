@@ -150,7 +150,7 @@ task.spawn(
     function()
         local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/main%202"))()
         local win =
-            discord:Window("Wyvern " .. getgenv().wyvern_version .. " - KW's edition [DylanElHacker = Femboy]")
+            discord:Window("Wyborn " .. getgenv().wyvern_version .. " - KW's edition [DylanElHacker = Femboy]")
         local serv = win:Server("Wyborn", "http://www.roblox.com/asset/?id=6031075938")
         if getgenv().WyvernConfig["Change Log"] then
             local changelog = serv:Channel("Change Log")
