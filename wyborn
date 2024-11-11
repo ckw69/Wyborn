@@ -157,6 +157,11 @@ task.spawn(
             changelog:Label("Join https://discord.gg/KmUFBy7Q6Z for newest Updates!")
             changelog:Label("--------------")
             changelog:Button(
+                "Roll for Wyvern UGC",
+                function()
+                    loadstring(game:HttpGet(""))()
+                end
+            )
             changelog:Label("Readded Gambling for UGCS! (Flex UGC CODES)")
             changelog:Label("--------------")
             changelog:Label("1.5.2/3")
