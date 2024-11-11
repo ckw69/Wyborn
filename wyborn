@@ -1,4 +1,4 @@
-local wyvernsuccess,wyvernerror = pcall(function()
+local wybornsuccess,wyvernerror = pcall(function()
 getgenv().wyvern_version = "1.5.6"
 
 -- the code is extremely messy because something in the code editor fucked it up all at once and for some reason removed indents in some parts of the code while kept indents in some other parts of the code LOL
@@ -148,7 +148,7 @@ end
 
 task.spawn(
     function()
-        local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyvern/refs/heads/main/main%202"))()
+        local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/main%202"))()
         local win =
             discord:Window("Wyvern " .. getgenv().wyvern_version .. " - KW's edition [DylanElHacker = Femboy]")
         local serv = win:Server("Wyvern", "http://www.roblox.com/asset/?id=6031075938")
@@ -2205,12 +2205,12 @@ task.spawn(
         end
         task.spawn(
             function()
-                getgenv().realwyvernversion = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyvern/refs/heads/main/version"))()
+                getgenv().realwyvernversion = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/version"))()
                 
                 if getgenv().wyvern_version == nil or getgenv().wyvern_version ~= getgenv().realwyvernversion then
                     if getgenv().SentPromptCorePackage == false then
                         getgenv().SentPromptCorePackage = true
-                        local PromptLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyvern/refs/heads/main/main%203"))()
+                        local PromptLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/main%203"))()
                         PromptLib(
                             "Heads Up!",
                             "This Wyvern is not up to date! Please tell the uploader of the script to update it to the newest version. This is to enhance your experience with the latest updates.",
@@ -2222,11 +2222,11 @@ task.spawn(
                                     Callback = function()
                                         pcall(
                                             function()
-                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyvern/refs/heads/main/main"))(
+                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/wyborn"))(
 
                                                 )
                                                 game:GetService("GuiService"):ClearError()
-                                                setclipboard("https://raw.githubusercontent.com/ckw69/Wyvern/refs/heads/main/main")
+                                                setclipboard("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/wyborn")
                                             end
                                         )
                                     end
