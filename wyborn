@@ -829,7 +829,7 @@ task.spawn(
                             end
                         end
                         discord:Notification(
-                            "Wyvern Sniper Started!",
+                            "Wyborn Sniper Started!",
                             "Information Grabbed:\n" .. tostring(output),
                             "Close!"
                         )
