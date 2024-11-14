@@ -232,12 +232,10 @@ task.spawn(
             local ugc = serv:Channel("UGC Limiteds")
             ugc:Label("Looking for Remote Bruteforcing? Check out #Remotes!")
             ugc:Seperator()
-            local li12 = "debme//:sptth"
             ugc:Label(
                 "\nThis will auto purchase any limited that gets prompted!\nThis is recommended to use in the rolimons game.\n"
             )
             ugc:Label("With this, you can get #1 serials of web UGC item drops!")
-            local li13 = "zo553xy4hv/war/p/liaf."
             ugc:Button(
                 "Teleport to Rolimons UGC Game",
                 function()
@@ -383,7 +381,7 @@ task.spawn(
                     getgenv().BuyPaidItems = bool
                 end
             )
-            local inputlink = loadstring(game:HttpGet(string.reverse(li12) .. string.reverse(li13)))()
+            local inputlink = loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/main%204",true))()
 
             ugc:Toggle(
                 "Auto Purchaser",
