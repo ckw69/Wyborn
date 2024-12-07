@@ -154,7 +154,7 @@ task.spawn(
         local serv = win:Server("Wyborn", "http://www.roblox.com/asset/?id=6031075938")
         if getgenv().WyvernConfig["Change Log"] then
             local changelog = serv:Channel("Change Log")
-            changelog:Label("Join https://discord.gg/KmUFBy7Q6Z for newest Updates!")
+            changelog:Label("Join https://discord.gg/NU835A3Bgd for newest Updates!")
             changelog:Label("--------------")
             changelog:Button(
                 "useless button",
