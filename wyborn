@@ -161,6 +161,7 @@ task.spawn(
                 "NEW Dev Product Purchase",
                 function()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/ckw69/Wyborn/refs/heads/main/Dev%20Product%20Purchase"))()
+                        discord:Notification("Wyborn Product Purchase", "Successfully executed !", "Okay!")
                 end
             )
             changelog:Label("--------------")
